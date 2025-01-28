@@ -89,4 +89,21 @@ a{
   .btn-try-now:hover {
     background-color: #e63939;
   }
+
+ @media only screen and (max-width: 600px) {
+    
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+    
+  }
   
