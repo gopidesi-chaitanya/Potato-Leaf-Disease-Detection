@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Potato Leaf Image</title>
+  <link rel="stylesheet" href="imageUplodestyle.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <button class="btn-home" ><a href="../index.html"><b>Home</b></a></button>
+    </header>
+
+    <div class="upload-box">
+      <h1>Upload Potato Leaf Image</h1>
+      <p>Select an image of your potato leaf to detect diseases using AI.</p>
+      
+      <input type="file" id="imageUpload" accept="image/*">
+      <button class="btn-upload" onclick="uploadImage()">Upload</button>
+      
+      <div id="preview"></div>
+    </div>
+  </div>
+  <script src="imageUplode.js"></script>
+</body>
+</html>

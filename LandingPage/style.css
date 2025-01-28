@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('./LandingPageBg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+  
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    height: 100vh;
+    
+  }
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+  }
+  
+  header .btn-login,
+  header .btn-signup {
+    background-color: #b5ffb8;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  header .btn-login:hover,
+  header .btn-signup:hover {
+    background-color: #96e69a;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+  #title{
+    color: #d32f2f;
+  }
+  .content h1 {
+    font-size: 32px;
+   
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .content .highlight {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+  
+  .btn-try-now {
+    background-color: #ff4d4d;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+  }
+  
+  .btn-try-now:hover {
+    background-color: #e63939;
+  }
+  
